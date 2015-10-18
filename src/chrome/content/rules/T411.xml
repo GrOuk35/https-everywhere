@@ -1,16 +1,16 @@
 <ruleset name="T411">
   <target host="t411.io" />
   <target host="*.t411.io" />
-  <target host="t411.me" />
-  <target host="*.t411.me" />
+  <target host="t411.in" />
+  <target host="*.t411.in" />
   
   <test url="http://wiki.t411.io/" />
   <test url="http://www.t411.io/" />
   <test url="http://forum.t411.io/" />
-  <test url="http://wiki.t411.me/" />
-  <test url="http://www.t411.me/" />
-  <test url="http://forum.t411.me/" />
+  <test url="http://wiki.t411.in/" />
+  <test url="http://www.t411.in/" />
+  <test url="http://forum.t411.in/" />
   
   <rule from="^http:" to="https:" />
-  <securecookie host="^.*t411\.(io|me)$" name=".*" />
+  <securecookie host="^.*t411\.(io|in)$" name=".*" />
 </ruleset>
